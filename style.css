@@ -266,6 +266,7 @@ footer .bottom {
   background-color: #3c2313;
   padding: 1rem 2rem;
   display: flex;
+  flex-direction: column-reverse;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -337,5 +338,9 @@ footer .rights p {
 
   header .bottom nav {
     display: block;
+  }
+
+  footer .bottom {
+    flex-direction: row;
   }
 }
